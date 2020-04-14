@@ -36,7 +36,7 @@ def do_loop(lora):
 
 def sendMessage(lora, outgoing):
     lora.println(outgoing)
-    # print("Sending message:\n{}\n".format(outgoing))
+    print("Sending message:\n{}\n".format(outgoing))
 
 
 def on_receive(lora, payload):
